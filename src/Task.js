@@ -4,7 +4,7 @@ class Task extends React.Component {
 	}
 	render() {
 		return <div>
-			<input type="checkbox" value={this.props.completed}></input>
+			<input type="checkbox" checked={this.props.completed}></input>
 			<p>{this.props.name}</p>
 		</div>
 	}

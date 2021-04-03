@@ -7,7 +7,7 @@ class TaskList extends React.Component {
 	}
 	render() {
 		return <div>
-			<Task name="Some task" completed="false" />
+			<Task name="Some task" completed="true" />
 			<TaskInput />
 		</div>
 	}

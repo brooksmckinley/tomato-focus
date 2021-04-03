@@ -1,0 +1,15 @@
+{
+  "name": "tomato-focus",
+  "version": "0.0.1",
+  "description": "Pomodoro timer with text editor and gamification",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron --no-sandbox ."
+  },
+  "author": "Brooks McKinley",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^12.0.2"
+  }
+}

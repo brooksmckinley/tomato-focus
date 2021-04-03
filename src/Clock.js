@@ -3,7 +3,11 @@ class Clock extends React.Component {
 		super(props)
 	}
 	render() {
-		return <h1>00:00</h1>
+		return <div>
+			<h1>00:00</h1>
+			<button>Start</button>
+			<button>Stop</button>
+		</div>
 	}
 }
 

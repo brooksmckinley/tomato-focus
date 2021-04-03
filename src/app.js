@@ -1,10 +1,7 @@
-function Hello(props) {
-	return <div>
-		<h1>Hello React!</h1>
-		<p>Hello {props.name}!</p>
-	</div>
-}
+import Clock from "./Clock.js"
 
-const app = <Hello name="Brooks" />
+const app = <div>
+	<Clock />
+</div>
+
 ReactDOM.render(app, document.getElementById("app"))
-

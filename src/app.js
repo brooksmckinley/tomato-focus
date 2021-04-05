@@ -1,9 +1,20 @@
 import Clock from "./Clock.js"
 import TaskList from "./TaskList.js"
 
-const app = <div>
-	<Clock />
-	<TaskList />
-</div>
+class App extends React.Component {
+	constructor(props) {
+		super(props)
+		this.state = {
+			score: 0,
+		}
+	}
+	render() {
+		return <div>
+			<p>Current score: {this.state.score}</p>
+			<Clock />
+			<TaskList />
+		</div>
+	}
+}
 
-ReactDOM.render(app, document.getElementById("app"))
+ReactDOM.render(<App />, document.getElementById("app"))

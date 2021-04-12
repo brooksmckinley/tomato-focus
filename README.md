@@ -6,12 +6,12 @@ Since this is work-in-progress, here's a list of completed items:
 
 ## TODO: 
 
-[X] Timer
-[X] Task list + Score
-[ ] Actual styling
-[ ] Text editor
-[ ] Settings menu
-[ ] Gamification?
+- [X] Timer
+- [X] Task list + Score
+- [ ] Actual styling
+- [ ] Text editor
+- [ ] Settings menu
+- [ ] Gamification?
 
 ## Screenshot
 
